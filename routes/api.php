@@ -19,5 +19,5 @@ Route::get('/users', [UserController::class, 'allUsers']);
 Route::get('/users/{id}', [UserController::class, 'getUserById']);
 Route::post('/something', [UserController::class, 'postSomething']);
 Route::post('/postOtherThing', [UserController::class, 'postOtherThing']);
-Route::post('/deleteSomething', [UserController::class, 'deleteSomething']);
+Route::post('/deleteSomething', [UserController::class, 'deleteSomething']); 
 
